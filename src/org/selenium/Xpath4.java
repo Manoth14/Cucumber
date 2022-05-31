@@ -14,10 +14,9 @@ public class Xpath4 {
 		driver.get("https://www.amazon.in/");
 
 		WebElement gettxt = driver.findElement(By.xpath("//a[text()='Conditions of Use & Sale']"));
-		String prt = gettxt.getText();
-		System.out.println(prt);
+		String  print = gettxt.getText();
+		System.out.println(print);
 
-		driver.quit();
 
 	}
 
